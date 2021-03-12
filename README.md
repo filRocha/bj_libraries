@@ -20,7 +20,7 @@ $ catkin build
 
 # Using
 
-If well compiled, add to your package's:
+If well compiled, add to your ROS package's:
 
 - `package.xml`:
 ```
