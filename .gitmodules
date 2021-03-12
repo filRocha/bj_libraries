@@ -1,3 +1,7 @@
 [submodule "include/lib_quaternion"]
 	path = include/lib_quaternion
 	url = https://github.com/filRocha/lib_quaternion.git
+[submodule "include/lib_dualquaternion"]
+	path = include/lib_dualquaternion
+	url = https://github.com/filRocha/lib_dualquaternion.git
+	branch = ros
