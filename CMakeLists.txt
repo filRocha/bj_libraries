@@ -2,18 +2,19 @@ cmake_minimum_required(VERSION 3.0.2)
 project(bj_libraries)
 
 
+# finding related packages
 find_package(catkin REQUIRED COMPONENTS
   roscpp
 )
 
-
+# defining catkin imports and exports
 catkin_package(
 	INCLUDE_DIRS include 
 	LIBRARIES quaternion dualquaternion
 	CATKIN_DEPENDS roscpp
 	)
 
-
+# adding the include directory
 include_directories(
 	include
 	${catkin_INCLUDE_DIRS})
