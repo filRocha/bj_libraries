@@ -1,0 +1,3 @@
+[submodule "include/lib_quaternion"]
+	path = include/lib_quaternion
+	url = https://github.com/filRocha/lib_quaternion.git
