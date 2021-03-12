@@ -15,7 +15,7 @@ and then compile your workspace
 ```
 $ catkin build 
 ```
-* I have tested on `catkin build` compiling tool. The `catkin_make` should also work
+ **Note:** I have tested on `catkin build` compiling tool. The `catkin_make` should also work
 
 
 # Using
