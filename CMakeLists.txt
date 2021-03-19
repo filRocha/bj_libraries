@@ -1,10 +1,22 @@
 cmake_minimum_required(VERSION 3.0.2)
 project(bj_libraries)
 
-
 # finding related packages
 find_package(catkin REQUIRED COMPONENTS
   roscpp
+  std_msgs
+  message_generation
+)
+
+# adding message files
+add_message_files(
+	DIRECTORY msg 
+	FILES DualQuaternionStamped.msg
+)
+
+# generating messages
+generate_messages(
+	DEPENDENCIES std_msgs
 )
 
 # defining catkin imports and exports
